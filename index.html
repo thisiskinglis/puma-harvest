@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Puma Harvest — From Our Farms. To Your Table.</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        forest: '#143125',
+        gold: '#c2a75a',
+        cream: '#fdf6ec',
+        beige: '#faf3e8',
+        sage: '#e8f0e6'
+      },
+      fontFamily: {
+        serif: ['Playfair Display','serif'],
+        sans: ['Inter','sans-serif']
+      }
+    }
+  }
+}
+</script>
+<style>
+html{scroll-behavior:smooth}
+body{font-family:Inter,sans-serif}
+h1,h2,h3{font-family:'Playfair Display',serif}
+</style>
+</head>
+<body class="bg-white text-[#1a2b1e] antialiased">
+
+<!-- HEADER -->
+<header class="sticky top-0 z-50 bg-white border-b border-black/5">
+  <div class="mx-auto max-w-[1240px] px-6 lg:px-8 h-[64px] flex items-center justify-between">
+    <a href="#home" class="flex items-center gap-2.5">
+      <span class="flex h-7 w-7 items-center justify-center rounded-full bg-forest text-white text-[14px]">🌿</span>
+      <span class="text-[13px] font-semibold tracking-[0.18em] text-forest">PUMA HARVEST</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-7 text-[13px] font-medium text-[#2d3b2f]/70">
+      <a href="#home" class="hover:text-forest">Home</a>
+      <a href="#about" class="hover:text-forest">About</a>
+      <a href="#products" class="hover:text-forest">Products</a>
+      <a href="#distribution" class="hover:text-forest">Distribution</a>
+      <a href="#news" class="hover:text-forest">News</a>
+      <a href="#contact" class="hover:text-forest">Contact</a>
+    </nav>
+    <a href="#contact" class="hidden md:inline-flex rounded-full bg-gold px-5 py-2.5 text-[12px] font-semibold text-forest hover:bg-[#b89a4e]">Enquire Now</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="bg-white">
+  <div class="mx-auto max-w-[1240px] px-6 lg:px-8">
+    <div class="grid lg:grid-cols-[1.05fr_1fr] gap-0 items-stretch min-h-[560px]">
+      <div class="py-14 lg:py-20 lg:pr-16 flex flex-col justify-center">
+        <h1 class="font-bold leading-[0.95] tracking-tight text-forest text-[42px] sm:text-[54px] lg:text-[64px]">From Our Farms.<br>To Your Table.</h1>
+        <p class="mt-6 max-w-[460px] text-[15px] leading-6 font-semibold text-forest">Premium Sasso chicken, naturally raised with care in partnership with Tanzania's finest farming communities.</p>
+        <p class="mt-4 max-w-[460px] text-[13px] leading-[1.7] text-[#5a6b5d]">A heritage breed prized for its exceptional flavour and texture. The Sasso breed is ethically delivered with uncompromising standards of quality and hygiene.</p>
+        <div class="mt-8">
+          <a href="#products" class="inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 text-[12px] font-semibold text-forest hover:bg-[#b89a4e]">Explore Our Products →</a>
+        </div>
+      </div>
+      <div class="relative lg:ml-auto w-full h-[420px] lg:h-[560px] lg:w-[640px] bg-[#2b1d12] overflow-hidden">
+        <!-- REPLACE WITH REAL IMAGE: images/hero-roasted-chicken.jpg -->
+        <div class="absolute inset-0 flex items-center justify-center bg-[#3a2a1a]">
+          <div class="text-center p-8">
+            <div class="mx-auto w-[280px] h-[180px] rounded-[24px] bg-[#c8a882] shadow-xl flex items-center justify-center text-[12px] text-[#5a3a1a]">HERO IMAGE<br>roasted Sasso chicken</div>
+            <p class="mt-4 text-[11px] text-white/50">REPLACE: /images/hero-roasted-chicken.jpg</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DIFFERENCE -->
+<section id="about" class="bg-white py-16 lg:py-20 border-t border-black/5">
+  <div class="mx-auto max-w-[1240px] px-6 lg:px-8">
+    <h2 class="text-center text-[26px] lg:text-[30px] font-semibold text-forest">The Puma Harvest Difference</h2>
+    <div class="mt-12 grid gap-10 md:grid-cols-3 max-w-[1050px] mx-auto">
+      <div class="text-center px-2">
+        <div class="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-beige text-forest">🪶</div>
+        <h3 class="mt-4 text-[14px] font-semibold">Signature Sasso Chicken</h3>
+        <p class="mt-3 text-[12px] leading-[1.7] text-[#5a6b5d]">Our flagship product is no ordinary poultry. The Sasso breed is renowned for its rich flavour, firm texture, and superior quality—raised slowly and naturally, not rushed.</p>
+      </div>
+      <div class="text-center px-2">
+        <div class="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-beige text-forest">🌿</div>
+        <h3 class="mt-4 text-[14px] font-semibold">A Growing Portfolio</h3>
+        <p class="mt-3 text-[12px] leading-[1.7] text-[#5a6b5d]">We're starting with what we do best. Soon, our range will expand to include honey, jams, spices, and other carefully curated Tanzanian products.</p>
+      </div>
+      <div class="text-center px-2">
+        <div class="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-beige text-forest">🤝</div>
+        <h3 class="mt-4 text-[14px] font-semibold">Trusted Supply Chain</h3>
+        <p class="mt-3 text-[12px] leading-[1.7] text-[#5a6b5d]">Supermarkets, hotels, and distributors choose us for consistent quality, reliable delivery, and a partnership that grows with them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="bg-cream py-16 lg:py-20">
+  <div class="mx-auto max-w-[1240px] px-6 lg:px-8">
+    <h2 class="text-center text-[24px] lg:text-[28px] font-semibold text-forest">Premium Products. Available Now. And Coming Soon.</h2>
+    <p class="mt-3 text-center text-[12px] leading-[1.6] text-[#5a6b5d] max-w-[560px] mx-auto">Our Sasso chicken is available today—raised with care and delivered with pride. And we're just getting started. Explore our growing portfolio of Tanzanian premium foods.</p>
+    
+    <div class="mt-10 grid gap-6 md:grid-cols-4">
+      <!-- Card 1 -->
+      <div class="bg-white rounded-[12px] overflow-hidden border border-black/5 shadow-sm">
+        <div class="h-[180px] bg-[#f5e6d0] flex items-center justify-center text-[11px] text-[#7a5a30] relative">
+          <!-- REPLACE: images/sasso-whole.jpg -->
+          <span>Product: Whole Sasso Chicken</span>
+          <span class="absolute top-3 left-3 bg-[#2e7d32] text-white text-[10px] px-2.5 py-1 rounded-full">Available Now</span>
+        </div>
+        <div class="p-4">
+          <h4 class="text-[13px] font-semibold text-forest">Premium Sasso Chicken</h4>
+          <p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d]">A heritage breed raised on natural feed and a community of farmers. Exceptional flavour, firm texture, and uncompromising quality.</p>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="bg-white rounded-[12px] overflow-hidden border border-black/5 shadow-sm">
+        <div class="h-[180px] bg-[#fdeab0] flex items-center justify-center text-[11px] text-[#7a5a30] relative">
+          <span>Product: Tanzanian Honey</span>
+          <span class="absolute top-3 left-3 bg-white border text-[10px] px-2.5 py-1 rounded-full">Coming Soon</span>
+        </div>
+        <div class="p-4">
+          <h4 class="text-[13px] font-semibold text-forest">Tanzanian Honey</h4>
+          <p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d]">Pure, golden honey from sustainable apiaries across Tanzania's diverse landscapes.</p>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="bg-white rounded-[12px] overflow-hidden border border-black/5 shadow-sm">
+        <div class="h-[180px] bg-[#f9c2c2] flex items-center justify-center text-[11px] text-[#7a3a3a] relative">
+          <span>Product: Artisanal Jams</span>
+          <span class="absolute top-3 left-3 bg-white border text-[10px] px-2.5 py-1 rounded-full">Coming Soon</span>
+        </div>
+        <div class="p-4">
+          <h4 class="text-[13px] font-semibold text-forest">Artisanal Jams</h4>
+          <p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d]">Small-batch jams crafted from locally grown fruits—a taste of Tanzanian sunshine.</p>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="bg-white rounded-[12px] overflow-hidden border border-black/5 shadow-sm">
+        <div class="h-[180px] bg-[#e8d5a3] flex items-center justify-center text-[11px] text-[#7a5a30] relative">
+          <span>Product: Spices & Teas</span>
+          <span class="absolute top-3 left-3 bg-white border text-[10px] px-2.5 py-1 rounded-full">Coming Soon</span>
+        </div>
+        <div class="p-4">
+          <h4 class="text-[13px] font-semibold text-forest">Spices & Herbal Teas</h4>
+          <p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d]">Carefully curated spices to bring the richness of Tanzanian agriculture to your kitchen.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 text-center">
+      <a href="#contact" class="inline-flex rounded-full bg-forest text-white px-6 py-3 text-[12px] font-semibold">Contact Us for Orders & Enquiries →</a>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNER IN QUALITY -->
+<section class="bg-white py-16 lg:py-20 border-t border-black/5">
+  <div class="mx-auto max-w-[1240px] px-6 lg:px-8">
+    <h2 class="text-center text-[24px] lg:text-[28px] font-semibold text-forest">More Than a Supplier. A Partner in Quality.</h2>
+    <div class="mt-12 grid gap-8 md:grid-cols-4 max-w-[1050px] mx-auto">
+      <div class="text-left"><div class="h-8 w-8 rounded-full bg-beige flex items-center justify-center text-forest">✓</div><h4 class="mt-4 text-[12px] font-semibold">Consistency You Can Count On</h4><p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d]">Every delivery meets our rigorous quality standards—whether it's a single order or a daily supply. No surprises. Just excellence.</p></div>
+      <div class="text-left"><div class="h-8 w-8 rounded-full bg-beige flex items-center justify-center text-forest">◍</div><h4 class="mt-4 text-[12px] font-semibold">One Partner, Growing With You</h4><p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d]">As your business grows, our portfolio grows alongside it. From Sasso chicken today to honey, jams, spices, and more tomorrow.</p></div>
+      <div class="text-left"><div class="h-8 w-8 rounded-full bg-beige flex items-center justify-center text-forest">◎</div><h4 class="mt-4 text-[12px] font-semibold">Rooted in Community</h4><p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d]">Our partnerships with local producers—including the rural communities—reflect ethical sourcing and shared prosperity.</p></div>
+      <div class="text-left"><div class="h-8 w-8 rounded-full bg-beige flex items-center justify-center text-forest">↗</div><h4 class="mt-4 text-[12px] font-semibold">Logistics You Can Rely On</h4><p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d]">Structured operations, disciplined planning, and a dedicated focus on on-time delivery. Every time.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- QUALITY -->
+<section class="bg-cream py-16 lg:py-20">
+  <div class="mx-auto max-w-[760px] px-6 lg:px-8 text-center">
+    <h2 class="text-[24px] lg:text-[28px] font-semibold text-forest">Quality You Can See. Standards You Can Trust.</h2>
+    <p class="mt-4 text-[12px] leading-[1.7] text-[#5a6b5d]">Premium poultry isn't just about how the bird is raised—it's about how it's handled from farm to fork. At Puma Harvest, every step of our process is designed to preserve quality and earn your trust.</p>
+    <div class="mt-8 text-left bg-white rounded-[12px] border border-black/5 p-6 shadow-sm max-w-[520px] mx-auto">
+      <div class="space-y-4">
+        <div class="flex gap-3"><span class="flex h-6 w-6 items-center justify-center rounded-full bg-forest text-white text-[10px]">✓</span><div><p class="text-[12px] font-semibold">Cold Chain Integrity</p><p class="text-[11px] text-[#5a6b5d]">Temperature-controlled from processing to delivery</p></div></div>
+        <div class="flex gap-3"><span class="flex h-6 w-6 items-center justify-center rounded-full bg-forest text-white text-[10px]">✓</span><div><p class="text-[12px] font-semibold">Hygienic Processing</p><p class="text-[11px] text-[#5a6b5d]">Strict sanitation protocols at every stage</p></div></div>
+        <div class="flex gap-3"><span class="flex h-6 w-6 items-center justify-center rounded-full bg-forest text-white text-[10px]">✓</span><div><p class="text-[12px] font-semibold">Premium Packaging</p><p class="text-[11px] text-[#5a6b5d]">Presentation that meets supermarkets and hospitality standards</p></div></div>
+        <div class="flex gap-3"><span class="flex h-6 w-6 items-center justify-center rounded-full bg-forest text-white text-[10px]">✓</span><div><p class="text-[12px] font-semibold">Full Traceability</p><p class="text-[11px] text-[#5a6b5d]">Every bird can be traced back to its source</p></div></div>
+      </div>
+      <p class="mt-6 text-[10.5px] leading-[1.5] text-[#7a8a7d]">For institutional buyers, this set is non-negotiable. It's the difference between a trusted partner and a liability.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BUILT FOR -->
+<section id="distribution" class="bg-white py-16 lg:py-20">
+  <div class="mx-auto max-w-[1240px] px-6 lg:px-8">
+    <h2 class="text-center text-[24px] lg:text-[28px] font-semibold text-forest">Built for the Demanding Buyer.</h2>
+    <div class="mt-10 grid grid-cols-2 md:grid-cols-5 gap-4">
+      <div><div class="h-[140px] bg-[#efe6d6] rounded-[10px] flex items-center justify-center text-[11px]">Supermarkets</div><p class="mt-3 text-[11px] font-semibold text-center">Supermarkets &<br>Retail Chains</p></div>
+      <div><div class="h-[140px] bg-[#efe6d6] rounded-[10px] flex items-center justify-center text-[11px]">Hotels</div><p class="mt-3 text-[11px] font-semibold text-center">Hotels & Restaurants</p></div>
+      <div><div class="h-[140px] bg-[#efe6d6] rounded-[10px] flex items-center justify-center text-[11px]">Institutional</div><p class="mt-3 text-[11px] font-semibold text-center">Institutional Buyers</p></div>
+      <div><div class="h-[140px] bg-[#efe6d6] rounded-[10px] flex items-center justify-center text-[11px]">Wholesalers</div><p class="mt-3 text-[11px] font-semibold text-center">Wholesalers &<br>Resellers</p></div>
+      <div><div class="h-[140px] bg-[#efe6d6] rounded-[10px] flex items-center justify-center text-[11px]">Consumers</div><p class="mt-3 text-[11px] font-semibold text-center">Individual Consumers</p></div>
+    </div>
+    <p class="mt-4 text-center text-[10px] text-[#7a8a7d]">REPLACE images with: /images/buyer-*.jpg</p>
+  </div>
+</section>
+
+<!-- BIG VISION -->
+<section id="news" class="bg-beige py-16 lg:py-20">
+  <div class="mx-auto max-w-[1240px] px-6 lg:px-8">
+    <div class="grid lg:grid-cols-[1fr_1.2fr] gap-10 items-center max-w-[1050px] mx-auto bg-white rounded-[16px] border border-black/5 overflow-hidden shadow-sm">
+      <div class="h-[340px] bg-[#d9c7a0] flex items-center justify-center text-[12px]">Vision Image<br>farmers + Kilimanjaro</div>
+      <div class="p-8 lg:p-10">
+        <h2 class="text-[22px] lg:text-[26px] font-semibold text-forest leading-tight">A Tanzanian Brand with a Big Vision.</h2>
+        <div class="mt-4 space-y-3 text-[12px] leading-[1.7] text-[#5a6b5d]">
+          <p><strong class="text-forest">Puma Harvest was born from a simple belief that Tanzania's agricultural riches deserve to be shared with pride.</strong></p>
+          <p>We started with Sasso chicken because we believe in doing one thing exceptionally well. Sasso is a heritage breed prized for its exceptional flavour, firm texture, and community partnership. We are here to build a premium food brand that honors where we come from and the kind of brand we're building.</p>
+          <p>Today, it's Sasso chicken. Tomorrow, it's honey, jams, spices, teas, and other products that showcase the best of our country. This is just the beginning.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GOOD FOOD -->
+<section class="bg-sage py-14">
+  <div class="mx-auto max-w-[1240px] px-6 lg:px-8">
+    <h2 class="text-center text-[24px] lg:text-[28px] font-semibold text-forest">Good Food. Good Business. Good for Tanzania.</h2>
+    <div class="mx-auto mt-10 grid max-w-[900px] gap-8 md:grid-cols-3">
+      <div class="text-center"><div class="mx-auto h-9 w-9 rounded-full bg-white flex items-center justify-center">🤝</div><h4 class="mt-4 text-[12px] font-semibold">Ethical Partnerships</h4><p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d] max-w-[240px] mx-auto">Our partnerships with smallholder farmers are built on fair terms, transparency, and long-term growth.</p></div>
+      <div class="text-center"><div class="mx-auto h-9 w-9 rounded-full bg-white flex items-center justify-center">🌱</div><h4 class="mt-4 text-[12px] font-semibold">Sustainable Sourcing</h4><p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d] max-w-[240px] mx-auto">We work with methods that protect the land and ensure its health for generations.</p></div>
+      <div class="text-center"><div class="mx-auto h-9 w-9 rounded-full bg-white flex items-center justify-center">👥</div><h4 class="mt-4 text-[12px] font-semibold">Community Impact</h4><p class="mt-2 text-[11px] leading-[1.6] text-[#5a6b5d] max-w-[240px] mx-auto">Stronger rural communities drive our business forward, and we invest in their prosperity.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" class="bg-forest text-white">
+  <div class="mx-auto max-w-[1240px] px-6 lg:px-8 py-12">
+    <div class="grid gap-10 md:grid-cols-4">
+      <div><div class="flex items-center gap-2.5"><span class="flex h-7 w-7 items-center justify-center rounded-full bg-white text-forest">🌿</span><span class="text-[12px] font-semibold tracking-[0.18em]">PUMA HARVEST</span></div><p class="mt-4 max-w-[220px] text-[11px] leading-[1.6] text-white/60">Tanzania's emerging premium food brand. From Our Farms. To Your Table.</p></div>
+      <div><h5 class="text-[12px] font-semibold">Quick Links</h5><ul class="mt-4 space-y-2 text-[11px] text-white/60"><li>Home</li><li>About</li><li>Products</li><li>Distribution</li><li>Contact</li></ul></div>
+      <div><h5 class="text-[12px] font-semibold">Contact</h5><ul class="mt-4 space-y-2 text-[11px] text-white/60"><li>pumaharvest@gmail.com</li><li>+255 745 051 808</li><li>Tanzania</li></ul></div>
+      <div><h5 class="text-[12px] font-semibold">Follow Us</h5><div class="mt-4 flex gap-2"><span class="h-7 w-7 rounded-full bg-white/10 flex items-center justify-center text-[11px]">f</span><span class="h-7 w-7 rounded-full bg-white/10 flex items-center justify-center text-[11px]">ig</span><span class="h-7 w-7 rounded-full bg-white/10 flex items-center justify-center text-[11px]">in</span></div><a href="mailto:pumaharvest@gmail.com" class="mt-6 inline-flex rounded-full bg-gold px-5 py-2.5 text-[11px] font-semibold text-forest">Enquire Now</a></div>
+    </div>
+    <div class="mt-12 border-t border-white/10 pt-6 text-center text-[10px] text-white/40">© 2026 Puma Harvest. Part of The HHH Group. Proudly Tanzanian.</div>
+  </div>
+</footer>
+
+</body>
+</html>
